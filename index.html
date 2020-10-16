@@ -1,40 +1,436 @@
 <!doctype html>
-<html>
-	<head>
-		<meta charset="utf-8">
-		<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+<html lang="en">
 
-		<title>reveal.js</title>
+<head>
+    <meta charset="utf-8">
 
-		<link rel="stylesheet" href="dist/reset.css">
-		<link rel="stylesheet" href="dist/reveal.css">
-		<link rel="stylesheet" href="dist/theme/black.css" id="theme">
+    <title>reveal.js – The HTML Presentation Framework</title>
 
-		<!-- Theme used for syntax highlighted code -->
-		<link rel="stylesheet" href="plugin/highlight/monokai.css" id="highlight-theme">
-	</head>
-	<body>
-		<div class="reveal">
-			<div class="slides">
-				<section>Slide 1</section>
-				<section>Slide 2</section>
-			</div>
-		</div>
+    <meta name="description" content="Curriculum Vitae of Saireesha Moodley">
+    <meta name="author" content="Saireesha Moodley">
 
-		<script src="dist/reveal.js"></script>
-		<script src="plugin/notes/notes.js"></script>
-		<script src="plugin/markdown/markdown.js"></script>
-		<script src="plugin/highlight/highlight.js"></script>
-		<script>
-			// More info about initialization & config:
-			// - https://revealjs.com/initialization/
-			// - https://revealjs.com/config/
-			Reveal.initialize({
-				hash: true,
+    <meta name="apple-mobile-web-app-capable" content="yes">
+    <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
 
-				// Learn about plugins: https://revealjs.com/plugins/
-				plugins: [ RevealMarkdown, RevealHighlight, RevealNotes ]
-			});
-		</script>
-	</body>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <link rel="stylesheet" href="dist/reset.css">
+    <link rel="stylesheet" href="dist/reveal.css">
+    <link rel="stylesheet" href="dist/theme/white.css" id="theme">
+
+    <!-- Theme used for syntax highlighting of code -->
+    <link rel="stylesheet" href="plugin/highlight/monokai.css" id="highlight-theme">
+</head>
+
+<body>
+
+<!--<style>-->
+<!--.reveal .slide-menu-button {-->
+<!--left: 30px;-->
+<!--top: 30px;-->
+<!--}-->
+<!--</style>-->
+
+<div class="reveal">
+
+    <!-- Any section element inside of this container is displayed as a slide -->
+    <div class="slides">
+        <section data-auto-animate data-menu-title="Cover Page">
+            <img data-id="fathead" src="IMG_7055.jpg" class="avatar"/>
+            <h3 class="underline" data-id="name">Thuven Moodley</h3>
+            <p>
+                <small>Senior Java Developer with a BSc. Electrical Engineering. Passionate about containerization and micro-service/event driven architecture.
+Agile certified with SCRUM and a convert from Waterfall methodologies.
+
+Kubernetes go to guy, CI/CD enthusiast with a toolset that can automate your pipeline and enable developers to focus on development and not devops.
+
+Loves working on design projects dealing with App design as I am very well equipped to provide a full stack solution.
+
+Learn hard and prosper. 
+
+                </small>
+            </p>
+        </section>
+
+        <section data-auto-animate data-auto-animate-easing="cubic-bezier(0.770, 0.000, 0.175, 1.000)"
+                 data-auto-animate>
+            <section data-auto-animate data-auto-animate-easing="cubic-bezier(0.770, 0.000, 0.175, 1.000)"
+                     data-auto-animate data-menu-title="Resume">
+                <h3 class="underline" data-id="name" style="margin: 0 0 5em 0;">Thuven Moodley</h3>
+                <div class="r-stack">
+                    <img data-id="fathead" src="IMG_7055.jpg" class="fatter-avatar"/>
+                    <div style="color: #404040; transform:translate(200px,0px)">
+                        <div class="r-vstack justify-between">
+                            <div class="r-frame"><a href="#/1/2">💼</a></div>
+                            <div><p style="line-height: 1px">Work xp</p></div>
+                        </div>
+                    </div>
+                    <div style="color: #404040; transform:translate(-200px,0px)">
+                        <div class="r-vstack">
+                            <div class="r-frame"><a href="#/1/1">🎓</a></div>
+                            <div style="line-height: 1px"><p>Education</p></div>
+                        </div>
+                    </div>
+                    <div style="color: #404040; transform:translate(0px,215px)">
+                        <div class="r-vstack">
+                            <div class="r-frame"><a href="#/1/6">&#128195;</a></div>
+                            <div><p style="line-height: 1px">References</p></div>
+                        </div>
+                    </div>
+                    <div style="color: #404040; transform:translate(0px,-210px)">
+                        <div class="r-vstack">
+                            <div class="r-frame"><a href="#/1/4">★</a></div>
+                            <div><p style="line-height: 1px">Skills</p></div>
+                        </div>
+                    </div>
+                    <div data-id="arrow1" data-auto-animate-delay="0.1"
+                         style="background: darkred; width: 2em; height: 0.05em; border-radius: 50px; color: black; transform:translate(120px,0px) ">
+                    </div>
+                    <div data-auto-animate-delay="0.1"
+                         style="background: darkred; width: 2em; height: 0.05em; border-radius: 50px; color: black; transform:translate(-120px,0px) ">
+                    </div>
+                    <div data-id="arrow3" data-auto-animate-delay="0.1"
+                         style="background: darkred; width: 2em; height: 0.05em; border-radius: 50px; color: black; transform:rotate(90deg) translate(-120px,0px) ">
+                    </div>
+                    <div data-id="arrow4" data-auto-animate-delay="0.1"
+                         style="background: darkred; width: 2em; height: 0.05em; border-radius: 50px; color: black; transform:rotate(90deg) translate(120px,0px) ">
+                    </div>
+                </div>
+            </section>
+
+            <section data-auto-animate data-auto-animate-easing="cubic-bezier(0.770, 0.000, 0.175, 1.000)"
+                     data-auto-animate>
+                <h3 data-id="education" class="underline">Education</h3>
+                <ul style="line-height:0.1px;">
+                    <h6 style="line-height: 1">Bachelor of Science: Electrical Engineering
+                        <small>(2011-2015)</small>
+                    </h6>
+                    <p><em>University of Kwa-Zulu Natal - Howard College Campus</em></p>
+                    <li>
+                        <p>Highly Commended Final Design (2015)</p>
+                    </li>
+                    <h6 style="line-height: 1">High School National Senior Certificate
+                        <small>(2010-2014)</small>
+                    </h6>
+                    <p><em>Stanger Manor Secondary School - Kwa-Dukuza</em></p>
+                    <li>
+                        <p>NSC with <b>5 distinctions</b> (2010)</p>
+                    </li>
+                    <li><p>Placed <b>10th in iLembe District</b> (2010)</p></li>
+                    <li><p>Best student in Information Technology (2007-2010)</p></li>
+                    <li><p>Student leader (2008-2009)</p></li>
+                </ul>
+            </section>
+
+            <section data-auto-animate data-auto-animate-easing="cubic-bezier(0.770, 0.000, 0.175, 1.000)"
+                     data-auto-animate>
+                <h3 class="underline">Work Experience</h3>
+
+
+                <ul style="line-height:0.1px;">
+                    <h6 style="line-height: 1">ATM Development - Java Developer
+                        <small>(February 2016 – November 2018)</small>
+                    </h6>
+                    <p><em>First National Bank
+                    </em></p>
+                    <li><p>
+                        Java, XFS, Struts, MVC
+                    </p>
+                    </li>
+                    <li><p>
+                       Device integration and prototyping
+                    </p></li>
+                    <li><p>
+                        Implemented Card Cancellation at ATM
+                    </p></li>
+                    <li><p>
+                        Lead developer on Biometric soluton on ATM (Fingerprint)
+                    </p></li>
+                    <li><p>
+                        Lead developer in Bulk Cash Deposit automation
+                    </p></li>
+                    <li><p>
+                        Agile and Scrum certified
+                    </p></li>
+                </ul>
+            </section>
+
+            <section data-auto-animate data-auto-animate-easing="cubic-bezier(0.770, 0.000, 0.175, 1.000)"
+                     data-auto-animate>
+                <h3 class="underline">Work Experience</h3>
+
+
+                <ul style="line-height:0.1px;">
+                    <h6 style="line-height: 1">Mobile Platform Team (FNB App)
+                        <small>(November 2018-Present)</small>
+                    </h6>
+                    </em></p>
+                    <li>
+                        <p>Senior Developer</p>
+                    </li>
+                    <li><p>Java, Spring, NodeJS, Python, C, XML, HTML</p></li>
+                    <li><p>Microservice Architecture</p></li>
+                    <li><p>Created custom CI/CD pipeline that lets developers focus on code and not infrastructure</p></li>
+                    <li><p>Automated pipeline into baremetal Kubernetes</p></li>
+                    <li><p>Helm</p></li>
+                    <li><p>Kubernetes go to guy</p></li>
+                    <li><p>Appdynamics APM expert</p></li>
+                    <li><p>Always pushing the envelope to optimise, secure, and improve everything</p></li>
+                </ul>
+            </section>
+
+            <section data-auto-animate data-auto-animate-easing="cubic-bezier(0.770, 0.000, 0.175, 1.000)"
+                     data-auto-animate>
+                <h3 class="underline">Skills</h3>
+                <canvas class="stretch" id="skills-frame" data-chart="bar">
+                    Skills, 0, 60, 100, 75, 80, 50, 90, 95, 92, 60
+                    <!--
+{
+ "data": {
+  "labels": ["Skills -", "Bash", "K8s", "Helm", "Java", "Engineering", "Agile", "English", "Afrikaans", "Collaboration"],
+  "datasets": [
+   {
+    "data":[0, 70, 80, 75, 80, 80, 90, 95, 92, 60],
+    "label":"My Skills","backgroundColor":"rgba(139,0,0,.8)"
+   }
+  ]
+ },
+ "options": { "responsive": "true" }
+}
+-->
+                </canvas>
+            </section>
+
+            <section data-auto-animate data-auto-animate-easing="cubic-bezier(0.770, 0.000, 0.175, 1.000)"
+                     data-auto-animate>
+                <h3 class="underline">Skills</h3>
+                <ul style="line-height:0.1px;">
+
+                    <li>
+                        <p> <b>Critical/Logical thinker:</b> Locate problems and use a variety of perspectives to obtain optimum solutions.</p>
+                    </li>
+                    <li><p> <b>Always Learning:</b> Research is key to the success of any venture
+                    </p></li>
+                    <li>
+                        <p><b>Excellent communication skills:</b> Able to articulate and communicate ideas effectively. </p>
+                    </li>
+                    <li><p> <b>Calm under pressure: </b>Able to troubleshoot at an advanced level even whilst under pressure.</p></li>
+                    <li><p><b>Analytical skills:</b> Can analyse and interpret data into charts, diagrams and reports.</p></li>
+                    <li><p><b>Report Writing:</b> Excellent writing skills used to deliver stellar reports.</p></li>
+                    <li><p><b>Presentation Skills:</b> Able to articulate and conduct myself in a calm and efficient manner. </p></li>
+
+                </ul>
+
+
+            </section>
+
+            <section data-auto-animate data-auto-animate-easing="cubic-bezier(0.770, 0.000, 0.175, 1.000)"
+                     data-auto-animate>
+                <h3 class="underline">References</h3>
+                <ol style="line-height:0.01px;">
+                    <li>
+                        <p>Mr Amos Sekati (Innovative thinker and my mentor at FNB ATM)</p>
+                        <p>TEL : +27 81 465 2839</p>
+                    </li>
+                    <li>
+                        <p>Andrew Swanson (Senior Lecturer, Electrical Engineering UKZN)</p>
+                        <p>TEL : +27 84 541 0977</p>
+                    </li>
+                    <li>
+                        <p>Deolin Nair (Team Lean - FNB Digital)</p>
+                        <p>TEL : +27 83 966 7051</p>
+                    </li>
+                    <li>
+                        <p>Martin Crous (CIO FNB Nav)</p>
+                        <p>TEL : +27 82 771 5141</p>
+                    </li>
+
+                </ol>
+            </section>
+        </section>
+
+        <section>
+            <h3 class="underline">Contact Information</h3>
+
+            <p>Please feel free to contact me personally on my cell : +27 81 028 34 69</p>
+            <p>...or click on my digital channels to learn more :)</p>
+
+            <div class="r-hstack">
+                <a href="https://www.linkedin.com/in/thuven-moodley-089448b3/">
+                    <img src="linkedin-logo.png" class="r-frame" height="100px" width="100px">
+                </a>
+                <a href="mailto: thuven@gmail.com">
+                    <img src="images.jpeg" class="r-frame" height="100px" width="100px">
+                </a>
+            </div>
+
+
+        </section>
+
+    </div>
+
+</div>
+
+<script src="plugin/markdown/markdown.js"></script>
+<script src="dist/reveal.js"></script>
+<script src="plugin/zoom/zoom.js"></script>
+<script src="plugin/notes/notes.js"></script>
+<script src="plugin/search/search.js"></script>
+<script src="plugin/highlight/highlight.js"></script>
+<script src="plugin/menu/menu.js"></script>
+<script src="plugin/chart/Chart.min.js"></script>
+<script src="plugin/chart/plugin.js"></script>
+
+<script>
+
+    // Also available as an ES module, see:
+    // https://revealjs.com/initialization/
+    Reveal.initialize({
+        controls: true,
+        progress: true,
+        mouseWheel: true,
+        center: true,
+        hash: true,
+        menu: {
+            // Specifies which side of the presentation the menu will
+            // be shown. Use 'left' or 'right'.
+            side: 'left',
+
+            // Specifies the width of the menu.
+            // Can be one of the following:
+            // 'normal', 'wide', 'third', 'half', 'full', or
+            // any valid css length value
+            width: 'normal',
+
+            // Add slide numbers to the titles in the slide list.
+            // Use 'true' or format string (same as reveal.js slide numbers)
+            numbers: false,
+
+            // Specifies which slide elements will be used for generating
+            // the slide titles in the menu. The default selects the first
+            // heading element found in the slide, but you can specify any
+            // valid css selector and the text from the first matching
+            // element will be used.
+            // Note: that a section data-menu-title attribute or an element
+            // with a menu-title class will take precedence over this option
+            titleSelector: 'h1, h2, h3, h4, h5, h6',
+
+            // If slides do not have a matching title, attempt to use the
+            // start of the text content as the title instead
+            useTextContentForMissingTitles: false,
+
+            // Hide slides from the menu that do not have a title.
+            // Set to 'true' to only list slides with titles.
+            hideMissingTitles: false,
+
+            // Adds markers to the slide titles to indicate the
+            // progress through the presentation. Set to 'false'
+            // to hide the markers.
+            markers: false,
+
+            // Specify custom panels to be included in the menu, by
+            // providing an array of objects with 'title', 'icon'
+            // properties, and either a 'src' or 'content' property.
+            custom: false,
+
+            // Specifies the themes that will be available in the themes
+            // menu panel. Set to 'true' to show the themes menu panel
+            // with the default themes list. Alternatively, provide an
+            // array to specify the themes to make available in the
+            // themes menu panel, for example...
+            //
+            // [
+            //     { name: 'Black', theme: 'dist/theme/black.css' },
+            //     { name: 'White', theme: 'dist/theme/white.css' },
+            //     { name: 'League', theme: 'dist/theme/league.css' },
+            //     {
+            //       name: 'Dark',
+            //       theme: 'lib/reveal.js/dist/theme/black.css',
+            //       highlightTheme: 'lib/reveal.js/plugin/highlight/monokai.css'
+            //     },
+            //     {
+            //       name: 'Code: Zenburn',
+            //       highlightTheme: 'lib/reveal.js/plugin/highlight/zenburn.css'
+            //     }
+            // ]
+            //
+            // Note: specifying highlightTheme without a theme will
+            // change the code highlight theme while leaving the
+            // presentation theme unchanged.
+            themes: false,
+
+            // Specifies the path to the default theme files. If your
+            // presentation uses a different path to the standard reveal
+            // layout then you need to provide this option, but only
+            // when 'themes' is set to 'true'. If you provide your own
+            // list of themes or 'themes' is set to 'false' the
+            // 'themesPath' option is ignored.
+            themesPath: 'dist/theme/',
+
+            // Specifies if the transitions menu panel will be shown.
+            // Set to 'true' to show the transitions menu panel with
+            // the default transitions list. Alternatively, provide an
+            // array to specify the transitions to make available in
+            // the transitions panel, for example...
+            // ['None', 'Fade', 'Slide']
+            transitions: false,
+
+            // Adds a menu button to the slides to open the menu panel.
+            // Set to 'false' to hide the button.
+            openButton: true,
+
+            // If 'true' allows the slide number in the presentation to
+            // open the menu panel. The reveal.js slideNumber option must
+            // be displayed for this to take effect
+            openSlideNumber: false,
+
+            // If true allows the user to open and navigate the menu using
+            // the keyboard. Standard keyboard interaction with reveal
+            // will be disabled while the menu is open.
+            keyboard: false,
+
+            // Normally the menu will close on user actions such as
+            // selecting a menu item, or clicking the presentation area.
+            // If 'true', the sticky option will leave the menu open
+            // until it is explicitly closed, that is, using the close
+            // button or pressing the ESC or m key (when the keyboard
+            // interaction option is enabled).
+            sticky: false,
+
+            // If 'true' standard menu items will be automatically opened
+            // when navigating using the keyboard. Note: this only takes
+            // effect when both the 'keyboard' and 'sticky' options are enabled.
+            autoOpen: false,
+
+            // If 'true' the menu will not be created until it is explicitly
+            // requested by calling RevealMenu.init(). Note this will delay
+            // the creation of all menu panels, including custom panels, and
+            // the menu button.
+            delayInit: false,
+
+            // If 'true' the menu will be shown when the menu is initialised.
+            openOnInit: false,
+
+            // By default the menu will load it's own font-awesome library
+            // icons. If your presentation needs to load a different
+            // font-awesome library the 'loadIcons' option can be set to false
+            // and the menu will not attempt to load the font-awesome library.
+            loadIcons: true
+        },
+        // Learn about plugins: https://revealjs.com/plugins/
+        plugins: [RevealZoom, RevealNotes, RevealSearch, RevealMarkdown, RevealHighlight, RevealMenu, RevealChart]
+    });
+
+    Reveal.addEventListener("slidechanged", function () {
+        setTimeout(function () { // Timeout required to load the plugin
+            // the RevealChart has iframe ids as properties
+            // (replacing "-" with "_")
+            console.log(RevealChart);
+        }, 500);
+    }, false);
+
+
+</script>
+
+</body>
 </html>
