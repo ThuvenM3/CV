@@ -1,0 +1,18 @@
+.reveal .slides section .fragment.underline {
+    opacity: 1;
+    visibility: visible;
+}
+
+.reveal .slides section .fragment.visible.underline {
+    text-decoration: underline;
+}
+
+/* reveal-style current-underline */
+.reveal .slides section .fragment.current-underline {
+    opacity: 1;
+    visibility: visible;
+}
+
+.reveal .slides section .fragment.visible.current-fragment.current-underline {
+    text-decoration: underline;
+}
